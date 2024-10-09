@@ -64,6 +64,10 @@ INFO: Installation finished.
   systemctl start wazuh-agent
   ```
 
+### Dashboard Agent 
+![image](https://github.com/user-attachments/assets/c4319930-78ee-489b-8338-874054e23965)
+![image](https://github.com/user-attachments/assets/e8a2cece-4f33-45bc-8658-b9f5aa68674a)
+
 
 
 
