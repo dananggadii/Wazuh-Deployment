@@ -17,4 +17,13 @@ curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-in
 
 ![image](https://github.com/user-attachments/assets/78d28033-1399-4957-beed-a5e7b40fb0fb)
 
+Once the assistant finishes the installation, the output shows the access credentials and a message that confirms that the installation was successful.
+```
+INFO: --- Summary ---
+INFO: You can access the web interface https://<wazuh-dashboard-ip>
+    User: admin
+    Password: <ADMIN_PASSWORD>
+INFO: Installation finished.
+```
 
+![image](https://github.com/user-attachments/assets/42a0830d-4488-471e-be0b-43aaed6bc0fe)
