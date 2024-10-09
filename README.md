@@ -26,4 +26,9 @@ INFO: You can access the web interface https://<wazuh-dashboard-ip>
 INFO: Installation finished.
 ```
 
+### Login Wazuh Dashboard
 ![image](https://github.com/user-attachments/assets/42a0830d-4488-471e-be0b-43aaed6bc0fe)
+
+### 
+![image](https://github.com/user-attachments/assets/baa8d070-6cba-4e40-9129-9c72e3579a38)
+
