@@ -51,3 +51,31 @@ INFO: Installation finished.
   ```
   apt-get update
   ```
+
+### Deploy a Wazuh agent
+* To deploy the Wazuh agent on your endpoint, select your package manager and edit the WAZUH_MANAGER variable to contain your Wazuh manager IP address or hostname.
+  ```
+  WAZUH_MANAGER="wazuh-dashboard-ip" apt-get install wazuh-agent
+  ```
+* Enable and start the Wazuh agent service.
+  ```
+  systemctl daemon-reload
+  systemctl enable wazuh-agent
+  systemctl start wazuh-agent
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
