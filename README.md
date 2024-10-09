@@ -4,7 +4,7 @@ Wazuh is an open-source security platform that provides security monitoring, thr
 
 ## Quickstart
 ### Set up a GCP instance to host the Wazuh dashboard.
-![image](https://github.com/user-attachments/assets/f24e3da2-c360-40ac-bbd9-adec468adb54)
+![image](https://github.com/user-attachments/assets/329b1f1c-5727-4149-a0ab-56656a3bd5e7)
 
 ### Open SSH Cloud.
 ![image](https://github.com/user-attachments/assets/32f763f1-10b5-45b8-9d94-cf8ceb7ebaea)
@@ -14,4 +14,7 @@ Download and run the Wazuh installation assistant
 ```
 curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
+
+![image](https://github.com/user-attachments/assets/78d28033-1399-4957-beed-a5e7b40fb0fb)
+
 
