@@ -5,6 +5,9 @@ Wazuh is an open-source security platform that provides security monitoring, thr
 ## Quickstart
 #### Installing Wazuh
 Download and run the Wazuh installation assistant
+
+#### Installing Wazuh
+Download and run the Wazuh installation assistant
 ```
 curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
