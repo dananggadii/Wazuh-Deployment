@@ -29,6 +29,25 @@ INFO: Installation finished.
 ### Login Wazuh Dashboard
 ![image](https://github.com/user-attachments/assets/42a0830d-4488-471e-be0b-43aaed6bc0fe)
 
-### 
+### Open the menu on the sidebar || Server Management || Endpoints summary
 ![image](https://github.com/user-attachments/assets/baa8d070-6cba-4e40-9129-9c72e3579a38)
 
+### Create a GCP instance for the Wazuh Agent.
+![image](https://github.com/user-attachments/assets/4fce0360-3ac0-49cf-abdd-152acaa02f98)
+
+### Open SSH Cloud.
+![image](https://github.com/user-attachments/assets/104d0c60-3724-4913-9e22-76d4d48d1c9b)
+
+### Add the Wazuh repository
+* Install the GPG key:
+  ```
+  curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
+  ```
+* Add the repository:
+  ```
+  echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+  ```
+* Update the package information:
+  ```
+  apt-get update
+  ```
